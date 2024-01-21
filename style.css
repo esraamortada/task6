@@ -54,6 +54,23 @@ nav{
    
 }
 @media  screen and (max-width: 992px) and (min-width:786px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .nav-list ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+   
+        row-gap: 16px;
+    }
+    .nav-list{
+        width: 90%;
+    }
 
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
