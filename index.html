@@ -10,17 +10,24 @@
 <body>
     <!--navbar sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn-->
     <nav>
-        <img src="images/logo.png" alt="">
-        <div class="nav-list">
-            <ul>
-                <li>Home</li>
-                <li>Find a doctor</li>
-                <li>Apps</li>
-                <li>Testimonials</li>
-                <li>About us</li>
-            </ul>
+        <img src="images/logo.png" alt="page-logo">
+        
+            <div class="icon" onclick="appear()"><i class="fa-solid fa-bars" ></i></div>
+                <div class="nav-list">
+                    <ul>
+                        <li>Home</li>
+                        <li>Find a doctor</li>
+                        <li>Apps</li>
+                        <li>Testimonials</li>
+                        <li>About us</li>
+                    </ul>
 
-        </div>
+                </div>
+
+
+        
+       
+        
     </nav>
     <!--end of navbar sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn-->
 
@@ -222,7 +229,7 @@
 
             </section>
 
-
+<!--toggleeeeeeeeeeeeeeeeeeeeeeeee sectionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn-->
 
             <div class="toggle">
                
@@ -375,6 +382,10 @@
 
 
     </footer> 
-    
+    <script>
+        function appear(){
+            document.querySelector('.nav-list').style.display='block'
+        }
+    </script>
 </body>
 </html>
